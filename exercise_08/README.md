@@ -6,7 +6,7 @@ This project is organized into two main directories, corresponding to Exercise 0
 The exercise is structured to separate equilibration studies, production simulations, and optimization routines.
 
 ## Directory Structure
-
+```
 .
 ├── es_08.1/
 │   ├── EQ/        # Equilibration and block size analysis
@@ -21,7 +21,7 @@ The exercise is structured to separate equilibration studies, production simulat
 │   ├── SOURCE/     # Source code for SA optimization
 │   ├── INPUT/      # input.dat, parameters.dat, SA settings
 │   └── OUTPUT/     # Results of SA optimization and analysis
-
+```
 
 ### es_08.1
 
