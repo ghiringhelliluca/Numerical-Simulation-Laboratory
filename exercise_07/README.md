@@ -5,7 +5,7 @@ The project is organized into two main directories, corresponding to **Exercise 
 
 Each directory is divided into **MD** and **MC** (`M(RT)^2/` folder name) simulations to allow separate study of the two methods.
 
-
+```
 .
 ├── es_07.2/
 │ ├── MD/
@@ -18,14 +18,14 @@ Each directory is divided into **MD** and **MC** (`M(RT)^2/` folder name) simula
 │ │ │ ├── INPUT/ # input.dat, properties.dat
 │ │ │ └── OUTPUT/ # Results of production simulation
 │ └── M(RT)^2/ # Same structure as MD
-
+```
 
 - **EQUILIBRATION/**: used to study the equilibration behavior of the system.
 - **SIMULATION/**: used for full production simulations after equilibration is verified.
 
 In **07.2**, the outputs are **instantaneous values** of physical observables like energy, temperature, and pressure.
 
-
+```
 .
 └── es_07.4/
 │ ├── MD/
@@ -33,7 +33,7 @@ In **07.2**, the outputs are **instantaneous values** of physical observables li
 │ │ ├── INPUT/ # input.dat, properties.dat
 │ │ └── OUTPUT/ # Simulation results
 │ └── M(RT)^2/ # Same structure as MD
-
+```
 
 - Here **equilibration is fixed** and performed **within the simulation** itself.
 - Output data is analyzed using **data blocking** to estimate statistical errors.
