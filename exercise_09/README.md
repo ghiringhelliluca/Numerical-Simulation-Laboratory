@@ -7,7 +7,7 @@ The project is organized into two main directories corresponding to two differen
 ## Directory Structure
 
 
-
+```
 .
 ├── CIRCUMFERENCE/   # Cities uniformly distributed along a circumference
 │   ├── SOURCE/       # C++ source code (main.cpp, individual.cpp, population.cpp)
@@ -17,7 +17,7 @@ The project is organized into two main directories corresponding to two differen
 │   ├── SOURCE/       # C++ source code (main.cpp, individual.cpp, population.cpp)
 │   ├── INPUT/        # Simulation parameters and city positions
 │   └── OUTPUT/       # Results of the simulation
-
+```
 
 ### CIRCUMFERENCE/
 
