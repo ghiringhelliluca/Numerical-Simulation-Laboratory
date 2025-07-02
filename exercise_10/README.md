@@ -29,7 +29,7 @@ The project is organized into three main directories corresponding to different 
 ## Directory Structure
 
 
-
+```
 .
 ├── MIGRATION/        # Parallel GA with inter-process migration of best individuals
 │   ├── SOURCE/       # C++ source code (main.cpp, individual.cpp, population.cpp)
@@ -44,7 +44,7 @@ The project is organized into three main directories corresponding to different 
 │   ├── INPUT/        # Simulation parameters
 │   └── OUTPUT/       # Results of the simulation
 └── Countries         # File to plot Italy borders in Python
-
+```
 
 ### MIGRATION/
 
