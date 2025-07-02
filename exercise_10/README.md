@@ -35,7 +35,7 @@ The project is organized into three main directories corresponding to different 
 │   ├── SOURCE/       # C++ source code (main.cpp, individual.cpp, population.cpp)
 │   ├── INPUT/        # Simulation parameters and city positions
 │   └── OUTPUT/       # Results of the simulation
-├── NO\_MIGRATION/     # Parallel GA with independent populations (no migration)
+├── NO_MIGRATION/     # Parallel GA with independent populations (no migration)
 │   ├── SOURCE/       # C++ source code
 │   ├── INPUT/        # Simulation parameters
 │   └── OUTPUT/       # Results of the simulation
