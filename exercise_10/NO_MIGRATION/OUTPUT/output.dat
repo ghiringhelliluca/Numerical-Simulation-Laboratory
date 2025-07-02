@@ -1,0 +1,41 @@
+DATA FILE= ../../cap_prov_ita.dat
+NUMBER OF INDIVIDUALS= 1000
+EXP FOR SELECTION= 2.5
+GENERATIONS= 1000
+MIGRATION EVERY 1001 GENERATIONS
+Reading input completed!
+Starting MPI Genetic Algorithm with 4 processes
+Migration every 1001 generations
+Initial populations created and sorted
+Generation 50, Best fitness: 19045.95 km
+Generation 100, Best fitness: 12710.77 km
+Generation 150, Best fitness: 9569.90 km
+Generation 200, Best fitness: 8291.96 km
+Generation 250, Best fitness: 7281.00 km
+Generation 300, Best fitness: 6838.36 km
+Generation 350, Best fitness: 6740.08 km
+Generation 400, Best fitness: 6636.55 km
+Generation 450, Best fitness: 6595.68 km
+Generation 500, Best fitness: 6548.71 km
+Generation 550, Best fitness: 6490.82 km
+Generation 600, Best fitness: 6462.73 km
+Generation 650, Best fitness: 6436.39 km
+Generation 700, Best fitness: 6436.39 km
+Generation 750, Best fitness: 6414.37 km
+Generation 800, Best fitness: 6403.62 km
+Generation 850, Best fitness: 6403.62 km
+Generation 900, Best fitness: 6382.26 km
+Generation 950, Best fitness: 6382.26 km
+Generation 1000, Best fitness: 6340.64 km
+
+==================================================
+Process 1 final best: 6859.52 km
+Process 2 final best: 6549.45 km
+Process 3 final best: 6857.15 km
+FINAL RESULTS:
+Global best fitness: 6340.64 km
+Best solution found by process: 0
+==================================================
+Process 0 final best: 6340.64 km
+Global best solution saved to ../OUTPUT/global_best_solution.dat
+All processes completed successfully.

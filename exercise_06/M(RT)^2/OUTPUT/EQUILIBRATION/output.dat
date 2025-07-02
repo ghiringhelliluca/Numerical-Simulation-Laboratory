@@ -1,0 +1,15 @@
+J= 1
+H= 0.02
+EQSTEPS= 10000
+ISING 1D MONTE CARLO (MRT^2) EQUILIBRATION
+TEMPERATURE= 2
+NPART= 50
+SIDE=      3.68403     3.68403     3.68403
+R_CUT= 0
+DELTA= 0
+NBLOCKS not used in EQUILIBRATION
+NSTEPS not used in EQUILIBRATION
+Reading input completed!
+System initialized!
+Reading properties completed!
+Equilibration completed!

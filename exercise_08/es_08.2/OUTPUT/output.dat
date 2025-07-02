@@ -1,0 +1,1729 @@
+TEMPERATURE= 2
+DELTA= 1.2
+NBLOCKS= 50
+NSTEPS= 1000
+NBLOCKS_FINAL= 50
+NEQUILIBRATION= 1
+MU= 1
+SIGMA= 1
+ALPHA= 0.99
+STEP_MU= 0.5
+STEP_SIGMA= 0.25
+MAX_SA_STEPS= 500
+MAX_STEPS_NO_IMPROVE= 100
+Reading input completed!
+
+=== Starting Simulated Annealing optimization ===
+Initial parameters:
+  Temperature: 2
+  Mu: 1, Sigma: 1
+*** NEW BEST ENERGY FOUND: 0.708977 ± 0.0584664 ***
+    Best parameters: mu=1, sigma=1
+    Acceptance rate: 0.8131
+Initial energy: 0.708977 ± 0.0584664
+Iteration 1: REJECTED
+  Energy difference: 4.51681
+  Temperature: 2
+Iteration 2: ACCEPTED
+  New energy: 0.803246 ± 0.0674726
+  New parameters: mu=1.00782, sigma=1.01124
+  Temperature: 1.98
+Iteration 3: ACCEPTED
+  New energy: 0.781718 ± 0.0963473
+  New parameters: mu=0.536988, sigma=1.33671
+  Temperature: 1.9602
+*** NEW BEST ENERGY FOUND: 0.0669276 ± 0.0454751 ***
+    Best parameters: mu=0.705774, sigma=1.04005
+    Acceptance rate: 0.75846
+Iteration 4: ACCEPTED
+  New energy: 0.0669276 ± 0.0454751
+  New parameters: mu=0.705774, sigma=1.04005
+  Temperature: 1.9406
+*** NEW BEST ENERGY FOUND: -0.209657 ± 0.00655256 ***
+    Best parameters: mu=0.409997, sigma=0.763723
+    Acceptance rate: 0.64562
+Iteration 5: ACCEPTED
+  New energy: -0.209657 ± 0.00655256
+  New parameters: mu=0.409997, sigma=0.763723
+  Temperature: 1.92119
+Iteration 6: ACCEPTED
+  New energy: 0.146553 ± 0.0538757
+  New parameters: mu=0.433317, sigma=1.21932
+  Temperature: 1.90198
+Iteration 7: ACCEPTED
+  New energy: 0.0106594 ± 0.0386544
+  New parameters: mu=0.0393472, sigma=1.24681
+  Temperature: 1.88296
+Iteration 8: REJECTED
+  Energy difference: 3.14056
+  Temperature: 1.86413
+Iteration 9: ACCEPTED
+  New energy: 0.813187 ± 0.125361
+  New parameters: mu=0.407311, sigma=1.41457
+  Temperature: 1.84549
+Iteration 10: ACCEPTED
+  New energy: 2.84114 ± 0.247128
+  New parameters: mu=0.254304, sigma=1.66684
+  Temperature: 1.82703
+
+Progress update (iteration 10):
+  Temperature: 1.80876
+  Current: mu=0.254304, sigma=1.66684
+  Current energy: 2.84114 ± 0.247128
+  Best energy so far: -0.209657 ± 0.00655256
+  Best parameters: mu=0.409997, sigma=0.763723
+Iteration 11: ACCEPTED
+  New energy: 1.7164 ± 0.128685
+  New parameters: mu=0.591168, sigma=1.50631
+  Temperature: 1.80876
+Iteration 12: REJECTED
+  Energy difference: 12.131
+  Temperature: 1.79068
+Iteration 13: ACCEPTED
+  New energy: -0.0756817 ± 0.0394724
+  New parameters: mu=0.286721, sigma=1.14651
+  Temperature: 1.77277
+Iteration 14: ACCEPTED
+  New energy: 0.700253 ± 0.0925004
+  New parameters: mu=0.3855, sigma=1.36343
+  Temperature: 1.75504
+Iteration 15: ACCEPTED
+  New energy: 2.47603 ± 0.180734
+  New parameters: mu=0.464799, sigma=1.64384
+  Temperature: 1.73749
+Iteration 16: REJECTED
+  Energy difference: 4.72538
+  Temperature: 1.72012
+Iteration 17: ACCEPTED
+  New energy: 0.247569 ± 0.0555676
+  New parameters: mu=0.0441001, sigma=1.32123
+  Temperature: 1.70292
+Iteration 18: ACCEPTED
+  New energy: 0.0698995 ± 0.0391199
+  New parameters: mu=0.612537, sigma=1.12929
+  Temperature: 1.68589
+*** NEW BEST ENERGY FOUND: -0.370853 ± 0.00945662 ***
+    Best parameters: mu=0.729538, sigma=0.740963
+    Acceptance rate: 0.75152
+Iteration 19: ACCEPTED
+  New energy: -0.370853 ± 0.00945662
+  New parameters: mu=0.729538, sigma=0.740963
+  Temperature: 1.66903
+Iteration 20: REJECTED
+  Energy difference: 1.94394
+  Temperature: 1.65234
+
+Progress update (iteration 20):
+  Temperature: 1.63581
+  Current: mu=0.729538, sigma=0.740963
+  Current energy: -0.370853 ± 0.00945662
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 21: ACCEPTED
+  New energy: -0.238408 ± 0.0112253
+  New parameters: mu=0.413777, sigma=0.865573
+  Temperature: 1.63581
+Iteration 22: REJECTED
+  Energy difference: 0.971579
+  Temperature: 1.61946
+Iteration 23: REJECTED
+  Energy difference: 1.65105
+  Temperature: 1.60326
+Iteration 24: ACCEPTED
+  New energy: -0.249637 ± 0.0112067
+  New parameters: mu=0.328012, sigma=0.937029
+  Temperature: 1.58723
+Iteration 25: REJECTED
+  Energy difference: 0.58227
+  Temperature: 1.57136
+Iteration 26: ACCEPTED
+  New energy: -0.250167 ± 0.0106285
+  New parameters: mu=0.122223, sigma=1.01578
+  Temperature: 1.55564
+Iteration 27: ACCEPTED
+  New energy: 0.622756 ± 0.100298
+  New parameters: mu=0.394075, sigma=1.32589
+  Temperature: 1.54009
+Iteration 28: ACCEPTED
+  New energy: -0.0745062 ± 0.0292677
+  New parameters: mu=0.0225444, sigma=1.21076
+  Temperature: 1.52469
+Iteration 29: ACCEPTED
+  New energy: -0.118405 ± 0.0256342
+  New parameters: mu=0.707386, sigma=0.96942
+  Temperature: 1.50944
+Iteration 30: ACCEPTED
+  New energy: -0.1423 ± 0.00866979
+  New parameters: mu=0.185975, sigma=0.812897
+  Temperature: 1.49434
+
+Progress update (iteration 30):
+  Temperature: 1.4794
+  Current: mu=0.185975, sigma=0.812897
+  Current energy: -0.1423 ± 0.00866979
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 31: REJECTED
+  Energy difference: 0.806016
+  Temperature: 1.4794
+Iteration 32: ACCEPTED
+  New energy: 0.565843 ± 0.0144211
+  New parameters: mu=0.0363505, sigma=0.536715
+  Temperature: 1.46461
+Iteration 33: ACCEPTED
+  New energy: 1.25799 ± 0.0218254
+  New parameters: mu=0.229749, sigma=0.325989
+  Temperature: 1.44996
+Iteration 34: REJECTED
+  Energy difference: 193.815
+  Temperature: 1.43546
+Iteration 35: ACCEPTED
+  New energy: 0.0220224 ± 0.00790637
+  New parameters: mu=0.241784, sigma=0.681009
+  Temperature: 1.42111
+Iteration 36: ACCEPTED
+  New energy: -0.261791 ± 0.0161798
+  New parameters: mu=0.425037, sigma=0.938333
+  Temperature: 1.4069
+Iteration 37: ACCEPTED
+  New energy: 0.0582345 ± 0.0620425
+  New parameters: mu=0.0704868, sigma=1.26367
+  Temperature: 1.39283
+Iteration 38: ACCEPTED
+  New energy: -0.144561 ± 0.0246605
+  New parameters: mu=0.497005, sigma=1.08103
+  Temperature: 1.3789
+Iteration 39: ACCEPTED
+  New energy: -0.184096 ± 0.021078
+  New parameters: mu=0.621207, sigma=0.974894
+  Temperature: 1.36511
+Iteration 40: ACCEPTED
+  New energy: -0.363967 ± 0.00596022
+  New parameters: mu=0.658215, sigma=0.730217
+  Temperature: 1.35146
+
+Progress update (iteration 40):
+  Temperature: 1.33794
+  Current: mu=0.658215, sigma=0.730217
+  Current energy: -0.363967 ± 0.00596022
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 41: REJECTED
+  Energy difference: 3.60173
+  Temperature: 1.33794
+Iteration 42: ACCEPTED
+  New energy: -0.228272 ± 0.00711435
+  New parameters: mu=0.895674, sigma=0.495233
+  Temperature: 1.32456
+Iteration 43: ACCEPTED
+  New energy: -0.0690218 ± 0.00771322
+  New parameters: mu=0.374853, sigma=0.648579
+  Temperature: 1.31132
+Iteration 44: ACCEPTED
+  New energy: -0.0183837 ± 0.00831158
+  New parameters: mu=0.0362962, sigma=0.749298
+  Temperature: 1.29821
+Iteration 45: ACCEPTED
+  New energy: -0.239466 ± 0.0123605
+  New parameters: mu=0.121595, sigma=1.03713
+  Temperature: 1.28522
+Iteration 46: ACCEPTED
+  New energy: -0.171413 ± 0.023891
+  New parameters: mu=0.0758257, sigma=1.1663
+  Temperature: 1.27237
+Iteration 47: ACCEPTED
+  New energy: -0.267363 ± 0.0132605
+  New parameters: mu=0.510717, sigma=0.904437
+  Temperature: 1.25965
+Iteration 48: ACCEPTED
+  New energy: -0.245 ± 0.014898
+  New parameters: mu=0.441505, sigma=0.930695
+  Temperature: 1.24705
+Iteration 49: ACCEPTED
+  New energy: -0.0897944 ± 0.0236458
+  New parameters: mu=0.935031, sigma=0.784793
+  Temperature: 1.23458
+Iteration 50: ACCEPTED
+  New energy: -0.0422848 ± 0.00888558
+  New parameters: mu=0.345066, sigma=0.674051
+  Temperature: 1.22223
+
+Progress update (iteration 50):
+  Temperature: 1.21001
+  Current: mu=0.345066, sigma=0.674051
+  Current energy: -0.0422848 ± 0.00888558
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 51: ACCEPTED
+  New energy: -0.158976 ± 0.00871055
+  New parameters: mu=0.232096, sigma=0.80039
+  Temperature: 1.21001
+Iteration 52: ACCEPTED
+  New energy: -0.229753 ± 0.00904622
+  New parameters: mu=0.239129, sigma=0.933695
+  Temperature: 1.19791
+Iteration 53: ACCEPTED
+  New energy: -0.187114 ± 0.00773354
+  New parameters: mu=0.349009, sigma=0.805562
+  Temperature: 1.18593
+Iteration 54: ACCEPTED
+  New energy: -0.201206 ± 0.0065719
+  New parameters: mu=0.46302, sigma=0.700553
+  Temperature: 1.17407
+Iteration 55: ACCEPTED
+  New energy: -0.11563 ± 0.00679255
+  New parameters: mu=0.515469, sigma=0.51904
+  Temperature: 1.16233
+Iteration 56: ACCEPTED
+  New energy: -0.00717658 ± 0.00931076
+  New parameters: mu=0.467462, sigma=0.500267
+  Temperature: 1.15071
+Iteration 57: ACCEPTED
+  New energy: -0.232345 ± 0.00643579
+  New parameters: mu=0.516574, sigma=0.652009
+  Temperature: 1.1392
+Iteration 58: ACCEPTED
+  New energy: -0.183601 ± 0.00685348
+  New parameters: mu=0.415566, sigma=0.732393
+  Temperature: 1.12781
+Iteration 59: ACCEPTED
+  New energy: -0.20986 ± 0.00769477
+  New parameters: mu=0.359029, sigma=0.8173
+  Temperature: 1.11653
+Iteration 60: REJECTED
+  Energy difference: 0.212819
+  Temperature: 1.10537
+
+Progress update (iteration 60):
+  Temperature: 1.09431
+  Current: mu=0.359029, sigma=0.8173
+  Current energy: -0.20986 ± 0.00769477
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 61: ACCEPTED
+  New energy: -0.294306 ± 0.018008
+  New parameters: mu=0.783079, sigma=0.806141
+  Temperature: 1.09431
+Iteration 62: ACCEPTED
+  New energy: -0.0107871 ± 0.0242986
+  New parameters: mu=1.07104, sigma=0.691122
+  Temperature: 1.08337
+Iteration 63: ACCEPTED
+  New energy: -0.307394 ± 0.0100671
+  New parameters: mu=0.629335, sigma=0.813288
+  Temperature: 1.07254
+Iteration 64: REJECTED
+  Energy difference: 0.537393
+  Temperature: 1.06181
+Iteration 65: ACCEPTED
+  New energy: 0.621326 ± 0.0387559
+  New parameters: mu=1.1304, sigma=0.831539
+  Temperature: 1.05119
+Iteration 66: ACCEPTED
+  New energy: -0.00205609 ± 0.0301988
+  New parameters: mu=0.627736, sigma=1.06013
+  Temperature: 1.04068
+Iteration 67: ACCEPTED
+  New energy: 0.330789 ± 0.0458697
+  New parameters: mu=0.813184, sigma=1.08336
+  Temperature: 1.03027
+Iteration 68: ACCEPTED
+  New energy: 0.674523 ± 0.0882237
+  New parameters: mu=0.499389, sigma=1.33472
+  Temperature: 1.01997
+Iteration 69: ACCEPTED
+  New energy: -0.213463 ± 0.014138
+  New parameters: mu=0.052125, sigma=1.09446
+  Temperature: 1.00977
+Iteration 70: ACCEPTED
+  New energy: 0.217306 ± 0.0704504
+  New parameters: mu=0.277468, sigma=1.28473
+  Temperature: 0.999674
+
+Progress update (iteration 70):
+  Temperature: 0.989677
+  Current: mu=0.277468, sigma=1.28473
+  Current energy: 0.217306 ± 0.0704504
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 71: ACCEPTED
+  New energy: 0.264769 ± 0.0694604
+  New parameters: mu=0.482244, sigma=1.2316
+  Temperature: 0.989677
+Iteration 72: ACCEPTED
+  New energy: -0.259326 ± 0.0111146
+  New parameters: mu=0.00367477, sigma=1.02057
+  Temperature: 0.979781
+Iteration 73: ACCEPTED
+  New energy: -0.193339 ± 0.00657601
+  New parameters: mu=0.298073, sigma=0.822908
+  Temperature: 0.969983
+Iteration 74: ACCEPTED
+  New energy: -0.329228 ± 0.00853335
+  New parameters: mu=0.687237, sigma=0.793609
+  Temperature: 0.960283
+Iteration 75: ACCEPTED
+  New energy: -0.0589424 ± 0.00844524
+  New parameters: mu=0.390186, sigma=0.631395
+  Temperature: 0.95068
+Iteration 76: REJECTED
+  Energy difference: 1.25052
+  Temperature: 0.941173
+Iteration 77: ACCEPTED
+  New energy: -0.0858085 ± 0.00883231
+  New parameters: mu=0.492339, sigma=0.516682
+  Temperature: 0.931762
+Iteration 78: ACCEPTED
+  New energy: 0.189195 ± 0.0170058
+  New parameters: mu=0.704181, sigma=0.40662
+  Temperature: 0.922444
+Iteration 79: ACCEPTED
+  New energy: -0.217107 ± 0.00822386
+  New parameters: mu=0.789426, sigma=0.478985
+  Temperature: 0.913219
+Iteration 80: ACCEPTED
+  New energy: 0.0830833 ± 0.00859864
+  New parameters: mu=0.368913, sigma=0.564646
+  Temperature: 0.904087
+
+Progress update (iteration 80):
+  Temperature: 0.895046
+  Current: mu=0.368913, sigma=0.564646
+  Current energy: 0.0830833 ± 0.00859864
+  Best energy so far: -0.370853 ± 0.00945662
+  Best parameters: mu=0.729538, sigma=0.740963
+Iteration 81: ACCEPTED
+  New energy: -0.170904 ± 0.00679385
+  New parameters: mu=0.337452, sigma=0.773779
+  Temperature: 0.895046
+Iteration 82: ACCEPTED
+  New energy: -0.274629 ± 0.00615844
+  New parameters: mu=0.561944, sigma=0.656671
+  Temperature: 0.886096
+*** NEW BEST ENERGY FOUND: -0.38611 ± 0.00477234 ***
+    Best parameters: mu=0.687983, sigma=0.569011
+    Acceptance rate: 0.72822
+Iteration 83: ACCEPTED
+  New energy: -0.38611 ± 0.00477234
+  New parameters: mu=0.687983, sigma=0.569011
+  Temperature: 0.877235
+Iteration 84: REJECTED
+  Energy difference: 0.32042
+  Temperature: 0.868463
+Iteration 85: REJECTED
+  Energy difference: 0.449028
+  Temperature: 0.859778
+*** NEW BEST ENERGY FOUND: -0.398664 ± 0.00973094 ***
+    Best parameters: mu=0.775792, sigma=0.696433
+    Acceptance rate: 0.76566
+Iteration 86: ACCEPTED
+  New energy: -0.398664 ± 0.00973094
+  New parameters: mu=0.775792, sigma=0.696433
+  Temperature: 0.85118
+Iteration 87: ACCEPTED
+  New energy: -0.385386 ± 0.00408274
+  New parameters: mu=0.773651, sigma=0.536393
+  Temperature: 0.842668
+Iteration 88: ACCEPTED
+  New energy: 0.0543914 ± 0.0103676
+  New parameters: mu=0.518386, sigma=0.426407
+  Temperature: 0.834242
+Iteration 89: ACCEPTED
+  New energy: -0.390765 ± 0.00388795
+  New parameters: mu=0.674525, sigma=0.594737
+  Temperature: 0.825899
+Iteration 90: ACCEPTED
+  New energy: 0.217217 ± 0.0128367
+  New parameters: mu=1.04518, sigma=0.422411
+  Temperature: 0.81764
+
+Progress update (iteration 90):
+  Temperature: 0.809464
+  Current: mu=1.04518, sigma=0.422411
+  Current energy: 0.217217 ± 0.0128367
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 91: ACCEPTED
+  New energy: 1.16836 ± 0.0312732
+  New parameters: mu=0.997497, sigma=0.314786
+  Temperature: 0.809464
+Iteration 92: REJECTED
+  Energy difference: 3.77461
+  Temperature: 0.801369
+Iteration 93: REJECTED
+  Energy difference: 3.21974
+  Temperature: 0.793356
+Iteration 94: ACCEPTED
+  New energy: 0.502907 ± 0.0186643
+  New parameters: mu=0.90807, sigma=0.379337
+  Temperature: 0.785422
+Iteration 95: ACCEPTED
+  New energy: 0.32573 ± 0.0111042
+  New parameters: mu=1.22531, sigma=0.494824
+  Temperature: 0.777568
+Iteration 96: ACCEPTED
+  New energy: 0.142794 ± 0.0145941
+  New parameters: mu=0.91036, sigma=0.424828
+  Temperature: 0.769792
+Iteration 97: ACCEPTED
+  New energy: -0.157286 ± 0.00737268
+  New parameters: mu=0.546573, sigma=0.503817
+  Temperature: 0.762094
+Iteration 98: ACCEPTED
+  New energy: -0.177428 ± 0.00669029
+  New parameters: mu=0.45488, sigma=0.676758
+  Temperature: 0.754473
+Iteration 99: REJECTED
+  Energy difference: 0.609432
+  Temperature: 0.746929
+Iteration 100: ACCEPTED
+  New energy: -0.22655 ± 0.00656702
+  New parameters: mu=0.32029, sigma=0.837435
+  Temperature: 0.739459
+
+Progress update (iteration 100):
+  Temperature: 0.732065
+  Current: mu=0.32029, sigma=0.837435
+  Current energy: -0.22655 ± 0.00656702
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 101: ACCEPTED
+  New energy: -0.247851 ± 0.0137815
+  New parameters: mu=0.401792, sigma=0.957099
+  Temperature: 0.732065
+Iteration 102: REJECTED
+  Energy difference: 0.0840895
+  Temperature: 0.724744
+Iteration 103: ACCEPTED
+  New energy: -0.281552 ± 0.0122213
+  New parameters: mu=0.588844, sigma=0.8995
+  Temperature: 0.717497
+Iteration 104: ACCEPTED
+  New energy: -0.210411 ± 0.0188517
+  New parameters: mu=0.244848, sigma=1.05536
+  Temperature: 0.710322
+Iteration 105: REJECTED
+  Energy difference: 0.126131
+  Temperature: 0.703218
+Iteration 106: ACCEPTED
+  New energy: -0.138729 ± 0.0285482
+  New parameters: mu=0.52005, sigma=1.05775
+  Temperature: 0.696186
+Iteration 107: ACCEPTED
+  New energy: -0.0289874 ± 0.0367113
+  New parameters: mu=0.219356, sigma=1.22079
+  Temperature: 0.689224
+Iteration 108: REJECTED
+  Energy difference: 0.294579
+  Temperature: 0.682332
+Iteration 109: ACCEPTED
+  New energy: -0.111135 ± 0.0235243
+  New parameters: mu=0.00195048, sigma=1.18629
+  Temperature: 0.675509
+Iteration 110: ACCEPTED
+  New energy: -0.21259 ± 0.0161148
+  New parameters: mu=0.125299, sigma=1.07665
+  Temperature: 0.668754
+
+Progress update (iteration 110):
+  Temperature: 0.662066
+  Current: mu=0.125299, sigma=1.07665
+  Current energy: -0.21259 ± 0.0161148
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 111: ACCEPTED
+  New energy: -0.253501 ± 0.00924868
+  New parameters: mu=0.232887, sigma=0.952911
+  Temperature: 0.662066
+Iteration 112: ACCEPTED
+  New energy: -0.244178 ± 0.00860935
+  New parameters: mu=0.0228782, sigma=0.976611
+  Temperature: 0.655446
+Iteration 113: ACCEPTED
+  New energy: -0.227122 ± 0.0108085
+  New parameters: mu=0.0203116, sigma=0.999931
+  Temperature: 0.648891
+Iteration 114: ACCEPTED
+  New energy: -0.171271 ± 0.00685383
+  New parameters: mu=0.143851, sigma=0.850863
+  Temperature: 0.642402
+Iteration 115: ACCEPTED
+  New energy: -0.254126 ± 0.0085074
+  New parameters: mu=0.273377, sigma=0.967079
+  Temperature: 0.635978
+Iteration 116: ACCEPTED
+  New energy: -0.183123 ± 0.00791839
+  New parameters: mu=0.215062, sigma=0.838482
+  Temperature: 0.629618
+Iteration 117: ACCEPTED
+  New energy: -0.211203 ± 0.00744298
+  New parameters: mu=0.0296792, sigma=0.905336
+  Temperature: 0.623322
+Iteration 118: ACCEPTED
+  New energy: -0.237208 ± 0.0203594
+  New parameters: mu=0.22399, sigma=1.05872
+  Temperature: 0.617089
+Iteration 119: ACCEPTED
+  New energy: -0.247994 ± 0.0127042
+  New parameters: mu=0.0966292, sigma=1.00349
+  Temperature: 0.610918
+Iteration 120: ACCEPTED
+  New energy: -0.227388 ± 0.0112066
+  New parameters: mu=0.0912589, sigma=0.959166
+  Temperature: 0.604809
+
+Progress update (iteration 120):
+  Temperature: 0.598761
+  Current: mu=0.0912589, sigma=0.959166
+  Current energy: -0.227388 ± 0.0112066
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 121: ACCEPTED
+  New energy: -0.206383 ± 0.0277999
+  New parameters: mu=0.0967996, sigma=1.09583
+  Temperature: 0.598761
+Iteration 122: ACCEPTED
+  New energy: -0.17914 ± 0.0209332
+  New parameters: mu=0.00520586, sigma=1.09892
+  Temperature: 0.592773
+Iteration 123: ACCEPTED
+  New energy: -0.229174 ± 0.0204849
+  New parameters: mu=0.0125187, sigma=0.974747
+  Temperature: 0.586845
+Iteration 124: ACCEPTED
+  New energy: -0.252574 ± 0.0121816
+  New parameters: mu=0.236984, sigma=1.01665
+  Temperature: 0.580977
+Iteration 125: ACCEPTED
+  New energy: -0.206776 ± 0.022623
+  New parameters: mu=0.0437608, sigma=1.06669
+  Temperature: 0.575167
+Iteration 126: ACCEPTED
+  New energy: -0.233216 ± 0.0136328
+  New parameters: mu=0.128104, sigma=1.02891
+  Temperature: 0.569416
+Iteration 127: ACCEPTED
+  New energy: -0.0747879 ± 0.0234925
+  New parameters: mu=0.407093, sigma=1.12411
+  Temperature: 0.563721
+Iteration 128: ACCEPTED
+  New energy: -0.102718 ± 0.0276665
+  New parameters: mu=0.587722, sigma=1.06228
+  Temperature: 0.558084
+Iteration 129: REJECTED
+  Energy difference: 0.569365
+  Temperature: 0.552503
+Iteration 130: ACCEPTED
+  New energy: 0.1241 ± 0.0605573
+  New parameters: mu=0.545435, sigma=1.13208
+  Temperature: 0.546978
+
+Progress update (iteration 130):
+  Temperature: 0.541509
+  Current: mu=0.545435, sigma=1.13208
+  Current energy: 0.1241 ± 0.0605573
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 131: ACCEPTED
+  New energy: 0.0797458 ± 0.0445426
+  New parameters: mu=0.629388, sigma=1.10822
+  Temperature: 0.541509
+Iteration 132: ACCEPTED
+  New energy: -0.0279405 ± 0.0266751
+  New parameters: mu=0.61295, sigma=1.07364
+  Temperature: 0.536093
+Iteration 133: ACCEPTED
+  New energy: 0.126059 ± 0.0404222
+  New parameters: mu=0.771776, sigma=1.06368
+  Temperature: 0.530732
+Iteration 134: REJECTED
+  Energy difference: 1.10228
+  Temperature: 0.525425
+Iteration 135: ACCEPTED
+  New energy: -0.154595 ± 0.028793
+  New parameters: mu=0.561742, sigma=1.00072
+  Temperature: 0.520171
+Iteration 136: ACCEPTED
+  New energy: -0.0979896 ± 0.0264733
+  New parameters: mu=0.58803, sigma=1.01697
+  Temperature: 0.514969
+Iteration 137: ACCEPTED
+  New energy: -0.282693 ± 0.00802795
+  New parameters: mu=0.449613, sigma=0.902058
+  Temperature: 0.50982
+Iteration 138: ACCEPTED
+  New energy: -0.280175 ± 0.0105254
+  New parameters: mu=0.506532, sigma=0.870228
+  Temperature: 0.504721
+Iteration 139: ACCEPTED
+  New energy: -0.245939 ± 0.0141951
+  New parameters: mu=0.361802, sigma=0.950741
+  Temperature: 0.499674
+Iteration 140: ACCEPTED
+  New energy: -0.299667 ± 0.00671775
+  New parameters: mu=0.501963, sigma=0.828907
+  Temperature: 0.494677
+
+Progress update (iteration 140):
+  Temperature: 0.489731
+  Current: mu=0.501963, sigma=0.828907
+  Current energy: -0.299667 ± 0.00671775
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 141: REJECTED
+  Energy difference: 0.0746573
+  Temperature: 0.489731
+Iteration 142: ACCEPTED
+  New energy: -0.215007 ± 0.0206999
+  New parameters: mu=0.687342, sigma=0.88028
+  Temperature: 0.484833
+Iteration 143: ACCEPTED
+  New energy: -0.249425 ± 0.0137037
+  New parameters: mu=0.578611, sigma=0.902728
+  Temperature: 0.479985
+Iteration 144: ACCEPTED
+  New energy: -0.182559 ± 0.0224896
+  New parameters: mu=0.520281, sigma=1.01775
+  Temperature: 0.475185
+Iteration 145: ACCEPTED
+  New energy: -0.230586 ± 0.017045
+  New parameters: mu=0.514707, sigma=0.963917
+  Temperature: 0.470433
+Iteration 146: ACCEPTED
+  New energy: -0.250084 ± 0.0146108
+  New parameters: mu=0.412308, sigma=0.946024
+  Temperature: 0.465729
+Iteration 147: ACCEPTED
+  New energy: -0.258002 ± 0.00920805
+  New parameters: mu=0.531414, sigma=0.913286
+  Temperature: 0.461072
+Iteration 148: ACCEPTED
+  New energy: -0.253533 ± 0.0097311
+  New parameters: mu=0.383507, sigma=0.893929
+  Temperature: 0.456461
+Iteration 149: ACCEPTED
+  New energy: -0.244179 ± 0.0130145
+  New parameters: mu=0.321161, sigma=1.00603
+  Temperature: 0.451896
+Iteration 150: ACCEPTED
+  New energy: -0.236689 ± 0.0149821
+  New parameters: mu=0.426177, sigma=0.961756
+  Temperature: 0.447377
+
+Progress update (iteration 150):
+  Temperature: 0.442904
+  Current: mu=0.426177, sigma=0.961756
+  Current energy: -0.236689 ± 0.0149821
+  Best energy so far: -0.398664 ± 0.00973094
+  Best parameters: mu=0.775792, sigma=0.696433
+Iteration 151: ACCEPTED
+  New energy: -0.256486 ± 0.0134834
+  New parameters: mu=0.579903, sigma=0.910851
+  Temperature: 0.442904
+Iteration 152: ACCEPTED
+  New energy: -0.288337 ± 0.00938682
+  New parameters: mu=0.666297, sigma=0.846919
+  Temperature: 0.438475
+Iteration 153: ACCEPTED
+  New energy: -0.355142 ± 0.00651599
+  New parameters: mu=0.644341, sigma=0.738743
+  Temperature: 0.43409
+Iteration 154: REJECTED
+  Energy difference: 0.0492801
+  Temperature: 0.429749
+*** NEW BEST ENERGY FOUND: -0.426447 ± 0.00581659 ***
+    Best parameters: mu=0.816471, sigma=0.666811
+    Acceptance rate: 0.75846
+Iteration 155: ACCEPTED
+  New energy: -0.426447 ± 0.00581659
+  New parameters: mu=0.816471, sigma=0.666811
+  Temperature: 0.425451
+Iteration 156: REJECTED
+  Energy difference: 0.117095
+  Temperature: 0.421197
+Iteration 157: ACCEPTED
+  New energy: -0.249301 ± 0.0151809
+  New parameters: mu=0.946018, sigma=0.73389
+  Temperature: 0.416985
+*** NEW BEST ENERGY FOUND: -0.428958 ± 0.0053354 ***
+    Best parameters: mu=0.788582, sigma=0.683838
+    Acceptance rate: 0.76606
+Iteration 158: ACCEPTED
+  New energy: -0.428958 ± 0.0053354
+  New parameters: mu=0.788582, sigma=0.683838
+  Temperature: 0.412815
+Iteration 159: ACCEPTED
+  New energy: -0.355612 ± 0.00693564
+  New parameters: mu=0.646137, sigma=0.727863
+  Temperature: 0.408687
+*** NEW BEST ENERGY FOUND: -0.438123 ± 0.00386846 ***
+    Best parameters: mu=0.775972, sigma=0.659445
+    Acceptance rate: 0.75972
+Iteration 160: ACCEPTED
+  New energy: -0.438123 ± 0.00386846
+  New parameters: mu=0.775972, sigma=0.659445
+  Temperature: 0.4046
+
+Progress update (iteration 160):
+  Temperature: 0.400554
+  Current: mu=0.775972, sigma=0.659445
+  Current energy: -0.438123 ± 0.00386846
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 161: ACCEPTED
+  New energy: -0.41416 ± 0.00351408
+  New parameters: mu=0.873484, sigma=0.583768
+  Temperature: 0.400554
+Iteration 162: REJECTED
+  Energy difference: 0.217268
+  Temperature: 0.396549
+Iteration 163: ACCEPTED
+  New energy: -0.331763 ± 0.00803856
+  New parameters: mu=0.953963, sigma=0.624409
+  Temperature: 0.392583
+Iteration 164: ACCEPTED
+  New energy: -0.392351 ± 0.00560731
+  New parameters: mu=0.923627, sigma=0.611385
+  Temperature: 0.388657
+Iteration 165: ACCEPTED
+  New energy: -0.140915 ± 0.0115622
+  New parameters: mu=1.06184, sigma=0.59266
+  Temperature: 0.384771
+Iteration 166: REJECTED
+  Energy difference: 0.366778
+  Temperature: 0.380923
+Iteration 167: ACCEPTED
+  New energy: 0.165978 ± 0.0209426
+  New parameters: mu=1.17107, sigma=0.631313
+  Temperature: 0.377114
+Iteration 168: ACCEPTED
+  New energy: -0.00591325 ± 0.0163757
+  New parameters: mu=1.07986, sigma=0.691146
+  Temperature: 0.373343
+Iteration 169: ACCEPTED
+  New energy: 0.505247 ± 0.0316719
+  New parameters: mu=1.19953, sigma=0.72678
+  Temperature: 0.369609
+Iteration 170: ACCEPTED
+  New energy: 0.107214 ± 0.0189987
+  New parameters: mu=1.13186, sigma=0.647115
+  Temperature: 0.365913
+
+Progress update (iteration 170):
+  Temperature: 0.362254
+  Current: mu=1.13186, sigma=0.647115
+  Current energy: 0.107214 ± 0.0189987
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 171: ACCEPTED
+  New energy: 0.13628 ± 0.0301879
+  New parameters: mu=1.10251, sigma=0.722005
+  Temperature: 0.362254
+Iteration 172: ACCEPTED
+  New energy: -0.196282 ± 0.0210749
+  New parameters: mu=0.975546, sigma=0.72445
+  Temperature: 0.358631
+Iteration 173: ACCEPTED
+  New energy: -0.349919 ± 0.0119539
+  New parameters: mu=0.898402, sigma=0.71513
+  Temperature: 0.355045
+Iteration 174: ACCEPTED
+  New energy: -0.202423 ± 0.0196282
+  New parameters: mu=0.949677, sigma=0.75583
+  Temperature: 0.351495
+Iteration 175: ACCEPTED
+  New energy: -0.0792292 ± 0.0264445
+  New parameters: mu=0.921044, sigma=0.812522
+  Temperature: 0.34798
+Iteration 176: ACCEPTED
+  New energy: 0.0354642 ± 0.0324364
+  New parameters: mu=0.910096, sigma=0.893824
+  Temperature: 0.3445
+Iteration 177: ACCEPTED
+  New energy: -0.122214 ± 0.0283914
+  New parameters: mu=0.792265, sigma=0.900954
+  Temperature: 0.341055
+Iteration 178: ACCEPTED
+  New energy: -0.00596234 ± 0.0291342
+  New parameters: mu=0.922826, sigma=0.865524
+  Temperature: 0.337644
+Iteration 179: ACCEPTED
+  New energy: 0.13816 ± 0.0462582
+  New parameters: mu=0.938788, sigma=0.886239
+  Temperature: 0.334268
+Iteration 180: REJECTED
+  Energy difference: 0.127871
+  Temperature: 0.330925
+
+Progress update (iteration 180):
+  Temperature: 0.327616
+  Current: mu=0.938788, sigma=0.886239
+  Current energy: 0.13816 ± 0.0462582
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 181: ACCEPTED
+  New energy: -0.0953582 ± 0.0260858
+  New parameters: mu=0.829001, sigma=0.899185
+  Temperature: 0.327616
+Iteration 182: ACCEPTED
+  New energy: 0.0104768 ± 0.031208
+  New parameters: mu=0.937333, sigma=0.877033
+  Temperature: 0.32434
+Iteration 183: REJECTED
+  Energy difference: 0.312343
+  Temperature: 0.321096
+Iteration 184: ACCEPTED
+  New energy: 0.0789788 ± 0.0314224
+  New parameters: mu=0.973269, sigma=0.844662
+  Temperature: 0.317885
+Iteration 185: ACCEPTED
+  New energy: 0.00591067 ± 0.031753
+  New parameters: mu=0.882561, sigma=0.875077
+  Temperature: 0.314707
+Iteration 186: ACCEPTED
+  New energy: -0.190059 ± 0.0223435
+  New parameters: mu=0.862307, sigma=0.83625
+  Temperature: 0.311559
+Iteration 187: ACCEPTED
+  New energy: -0.228666 ± 0.0182805
+  New parameters: mu=0.73634, sigma=0.866402
+  Temperature: 0.308444
+Iteration 188: ACCEPTED
+  New energy: -0.191027 ± 0.0303891
+  New parameters: mu=0.69858, sigma=0.900023
+  Temperature: 0.305359
+Iteration 189: ACCEPTED
+  New energy: -0.149694 ± 0.0222103
+  New parameters: mu=0.771828, sigma=0.898339
+  Temperature: 0.302306
+Iteration 190: ACCEPTED
+  New energy: -0.296663 ± 0.0100206
+  New parameters: mu=0.637325, sigma=0.836993
+  Temperature: 0.299283
+
+Progress update (iteration 190):
+  Temperature: 0.29629
+  Current: mu=0.637325, sigma=0.836993
+  Current energy: -0.296663 ± 0.0100206
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 191: ACCEPTED
+  New energy: -0.277742 ± 0.0068981
+  New parameters: mu=0.493111, sigma=0.840423
+  Temperature: 0.29629
+Iteration 192: ACCEPTED
+  New energy: -0.298981 ± 0.0103557
+  New parameters: mu=0.636394, sigma=0.837475
+  Temperature: 0.293327
+Iteration 193: ACCEPTED
+  New energy: -0.242096 ± 0.0159577
+  New parameters: mu=0.72039, sigma=0.888095
+  Temperature: 0.290394
+Iteration 194: ACCEPTED
+  New energy: -0.29717 ± 0.0118023
+  New parameters: mu=0.63131, sigma=0.83921
+  Temperature: 0.28749
+Iteration 195: ACCEPTED
+  New energy: -0.344759 ± 0.0102349
+  New parameters: mu=0.763869, sigma=0.778467
+  Temperature: 0.284615
+Iteration 196: ACCEPTED
+  New energy: -0.384002 ± 0.0108527
+  New parameters: mu=0.797099, sigma=0.714443
+  Temperature: 0.281769
+Iteration 197: REJECTED
+  Energy difference: 0.060138
+  Temperature: 0.278951
+Iteration 198: ACCEPTED
+  New energy: -0.267273 ± 0.017643
+  New parameters: mu=0.859508, sigma=0.764011
+  Temperature: 0.276162
+Iteration 199: ACCEPTED
+  New energy: -0.198227 ± 0.0165525
+  New parameters: mu=0.962294, sigma=0.732619
+  Temperature: 0.2734
+Iteration 200: ACCEPTED
+  New energy: -0.0730448 ± 0.0206764
+  New parameters: mu=1.00137, sigma=0.764861
+  Temperature: 0.270666
+
+Progress update (iteration 200):
+  Temperature: 0.267959
+  Current: mu=1.00137, sigma=0.764861
+  Current energy: -0.0730448 ± 0.0206764
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 201: ACCEPTED
+  New energy: -0.00258748 ± 0.0271332
+  New parameters: mu=1.02795, sigma=0.754395
+  Temperature: 0.267959
+Iteration 202: REJECTED
+  Energy difference: 0.334
+  Temperature: 0.26528
+Iteration 203: ACCEPTED
+  New energy: 0.046554 ± 0.0233132
+  New parameters: mu=0.989202, sigma=0.81665
+  Temperature: 0.262627
+Iteration 204: ACCEPTED
+  New energy: 0.513307 ± 0.0543937
+  New parameters: mu=1.11601, sigma=0.832334
+  Temperature: 0.260001
+Iteration 205: ACCEPTED
+  New energy: 0.871355 ± 0.0796857
+  New parameters: mu=1.13747, sigma=0.893602
+  Temperature: 0.257401
+Iteration 206: ACCEPTED
+  New energy: 0.555559 ± 0.0519953
+  New parameters: mu=1.03721, sigma=0.947191
+  Temperature: 0.254827
+Iteration 207: REJECTED
+  Energy difference: 0.292465
+  Temperature: 0.252278
+Iteration 208: REJECTED
+  Energy difference: 0.419829
+  Temperature: 0.249756
+Iteration 209: REJECTED
+  Energy difference: 0.0552342
+  Temperature: 0.247258
+Iteration 210: ACCEPTED
+  New energy: 0.418214 ± 0.0479393
+  New parameters: mu=0.99172, sigma=0.926897
+  Temperature: 0.244785
+
+Progress update (iteration 210):
+  Temperature: 0.242338
+  Current: mu=0.99172, sigma=0.926897
+  Current energy: 0.418214 ± 0.0479393
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 211: ACCEPTED
+  New energy: 0.0868655 ± 0.0315928
+  New parameters: mu=0.937084, sigma=0.876923
+  Temperature: 0.242338
+Iteration 212: ACCEPTED
+  New energy: -0.115502 ± 0.0216265
+  New parameters: mu=0.899316, sigma=0.841171
+  Temperature: 0.239914
+Iteration 213: ACCEPTED
+  New energy: -0.00608591 ± 0.0258325
+  New parameters: mu=0.980471, sigma=0.792122
+  Temperature: 0.237515
+Iteration 214: ACCEPTED
+  New energy: -0.0282547 ± 0.0207822
+  New parameters: mu=1.03739, sigma=0.738131
+  Temperature: 0.23514
+Iteration 215: ACCEPTED
+  New energy: -0.0468582 ± 0.0189599
+  New parameters: mu=1.04545, sigma=0.715914
+  Temperature: 0.232789
+Iteration 216: ACCEPTED
+  New energy: -0.227304 ± 0.0175096
+  New parameters: mu=0.964905, sigma=0.720496
+  Temperature: 0.230461
+Iteration 217: ACCEPTED
+  New energy: -0.269933 ± 0.0126361
+  New parameters: mu=0.9758, sigma=0.676831
+  Temperature: 0.228156
+Iteration 218: ACCEPTED
+  New energy: -0.228211 ± 0.012673
+  New parameters: mu=1.01838, sigma=0.640338
+  Temperature: 0.225875
+Iteration 219: ACCEPTED
+  New energy: -0.341125 ± 0.0069114
+  New parameters: mu=0.950051, sigma=0.621716
+  Temperature: 0.223616
+Iteration 220: ACCEPTED
+  New energy: -0.326899 ± 0.00573618
+  New parameters: mu=0.958086, sigma=0.567078
+  Temperature: 0.22138
+
+Progress update (iteration 220):
+  Temperature: 0.219166
+  Current: mu=0.958086, sigma=0.567078
+  Current energy: -0.326899 ± 0.00573618
+  Best energy so far: -0.438123 ± 0.00386846
+  Best parameters: mu=0.775972, sigma=0.659445
+Iteration 221: ACCEPTED
+  New energy: -0.203432 ± 0.0094819
+  New parameters: mu=1.0403, sigma=0.603049
+  Temperature: 0.219166
+Iteration 222: ACCEPTED
+  New energy: -0.00604837 ± 0.0151576
+  New parameters: mu=1.11354, sigma=0.621572
+  Temperature: 0.216974
+Iteration 223: REJECTED
+  Energy difference: 0.2497
+  Temperature: 0.214804
+Iteration 224: ACCEPTED
+  New energy: -0.185942 ± 0.0105147
+  New parameters: mu=1.05297, sigma=0.607211
+  Temperature: 0.212656
+Iteration 225: ACCEPTED
+  New energy: -0.34174 ± 0.00621452
+  New parameters: mu=0.958121, sigma=0.58786
+  Temperature: 0.21053
+Iteration 226: ACCEPTED
+  New energy: -0.356184 ± 0.00447738
+  New parameters: mu=0.918042, sigma=0.562664
+  Temperature: 0.208425
+Iteration 227: REJECTED
+  Energy difference: 0.0561456
+  Temperature: 0.20634
+Iteration 228: ACCEPTED
+  New energy: -0.423505 ± 0.00385245
+  New parameters: mu=0.830435, sigma=0.575654
+  Temperature: 0.204277
+Iteration 229: ACCEPTED
+  New energy: -0.412813 ± 0.00432412
+  New parameters: mu=0.778494, sigma=0.559738
+  Temperature: 0.202234
+*** NEW BEST ENERGY FOUND: -0.442626 ± 0.00259738 ***
+    Best parameters: mu=0.792953, sigma=0.599239
+    Acceptance rate: 0.7207
+Iteration 230: ACCEPTED
+  New energy: -0.442626 ± 0.00259738
+  New parameters: mu=0.792953, sigma=0.599239
+  Temperature: 0.200212
+
+Progress update (iteration 230):
+  Temperature: 0.19821
+  Current: mu=0.792953, sigma=0.599239
+  Current energy: -0.442626 ± 0.00259738
+  Best energy so far: -0.442626 ± 0.00259738
+  Best parameters: mu=0.792953, sigma=0.599239
+Iteration 231: ACCEPTED
+  New energy: -0.427607 ± 0.00415196
+  New parameters: mu=0.859202, sigma=0.58913
+  Temperature: 0.19821
+Iteration 232: ACCEPTED
+  New energy: -0.436813 ± 0.00491918
+  New parameters: mu=0.773208, sigma=0.602066
+  Temperature: 0.196228
+*** NEW BEST ENERGY FOUND: -0.444351 ± 0.00289237 ***
+    Best parameters: mu=0.819881, sigma=0.627569
+    Acceptance rate: 0.72766
+Iteration 233: ACCEPTED
+  New energy: -0.444351 ± 0.00289237
+  New parameters: mu=0.819881, sigma=0.627569
+  Temperature: 0.194265
+Iteration 234: ACCEPTED
+  New energy: -0.412595 ± 0.00451788
+  New parameters: mu=0.877607, sigma=0.604532
+  Temperature: 0.192323
+Iteration 235: ACCEPTED
+  New energy: -0.418305 ± 0.00596311
+  New parameters: mu=0.876549, sigma=0.629015
+  Temperature: 0.190399
+Iteration 236: ACCEPTED
+  New energy: -0.424683 ± 0.0045834
+  New parameters: mu=0.87764, sigma=0.609796
+  Temperature: 0.188495
+Iteration 237: ACCEPTED
+  New energy: -0.347794 ± 0.00490422
+  New parameters: mu=0.935816, sigma=0.566228
+  Temperature: 0.18661
+Iteration 238: ACCEPTED
+  New energy: -0.420242 ± 0.00414252
+  New parameters: mu=0.882978, sigma=0.605558
+  Temperature: 0.184744
+Iteration 239: ACCEPTED
+  New energy: -0.379516 ± 0.00890509
+  New parameters: mu=0.928633, sigma=0.637732
+  Temperature: 0.182897
+Iteration 240: REJECTED
+  Energy difference: 0.0926053
+  Temperature: 0.181068
+
+Progress update (iteration 240):
+  Temperature: 0.179257
+  Current: mu=0.928633, sigma=0.637732
+  Current energy: -0.379516 ± 0.00890509
+  Best energy so far: -0.444351 ± 0.00289237
+  Best parameters: mu=0.819881, sigma=0.627569
+Iteration 241: ACCEPTED
+  New energy: -0.282944 ± 0.0108499
+  New parameters: mu=0.981478, sigma=0.636284
+  Temperature: 0.179257
+Iteration 242: ACCEPTED
+  New energy: -0.380257 ± 0.00686172
+  New parameters: mu=0.928086, sigma=0.633827
+  Temperature: 0.177465
+Iteration 243: ACCEPTED
+  New energy: -0.246672 ± 0.00982785
+  New parameters: mu=1.0133, sigma=0.6385
+  Temperature: 0.17569
+Iteration 244: ACCEPTED
+  New energy: -0.179797 ± 0.0147276
+  New parameters: mu=1.03732, sigma=0.651978
+  Temperature: 0.173933
+Iteration 245: REJECTED
+  Energy difference: 0.203176
+  Temperature: 0.172194
+Iteration 246: ACCEPTED
+  New energy: -0.300428 ± 0.0133603
+  New parameters: mu=0.964299, sigma=0.681008
+  Temperature: 0.170472
+Iteration 247: REJECTED
+  Energy difference: 0.151495
+  Temperature: 0.168767
+Iteration 248: ACCEPTED
+  New energy: -0.397853 ± 0.007342
+  New parameters: mu=0.883734, sigma=0.65842
+  Temperature: 0.167079
+Iteration 249: ACCEPTED
+  New energy: -0.387991 ± 0.00650933
+  New parameters: mu=0.920668, sigma=0.633118
+  Temperature: 0.165409
+Iteration 250: ACCEPTED
+  New energy: -0.421764 ± 0.00360475
+  New parameters: mu=0.878208, sigma=0.601783
+  Temperature: 0.163755
+
+Progress update (iteration 250):
+  Temperature: 0.162117
+  Current: mu=0.878208, sigma=0.601783
+  Current energy: -0.421764 ± 0.00360475
+  Best energy so far: -0.444351 ± 0.00289237
+  Best parameters: mu=0.819881, sigma=0.627569
+Iteration 251: ACCEPTED
+  New energy: -0.432413 ± 0.00349255
+  New parameters: mu=0.851106, sigma=0.613678
+  Temperature: 0.162117
+*** NEW BEST ENERGY FOUND: -0.446039 ± 0.0025833 ***
+    Best parameters: mu=0.818749, sigma=0.602897
+    Acceptance rate: 0.71268
+Iteration 252: ACCEPTED
+  New energy: -0.446039 ± 0.0025833
+  New parameters: mu=0.818749, sigma=0.602897
+  Temperature: 0.160496
+Iteration 253: ACCEPTED
+  New energy: -0.439057 ± 0.00439827
+  New parameters: mu=0.846309, sigma=0.62469
+  Temperature: 0.158891
+Iteration 254: ACCEPTED
+  New energy: -0.441089 ± 0.00366245
+  New parameters: mu=0.805361, sigma=0.625459
+  Temperature: 0.157302
+Iteration 255: ACCEPTED
+  New energy: -0.429384 ± 0.00509572
+  New parameters: mu=0.782692, sigma=0.655086
+  Temperature: 0.155729
+Iteration 256: REJECTED
+  Energy difference: 0.0151641
+  Temperature: 0.154172
+Iteration 257: ACCEPTED
+  New energy: -0.430933 ± 0.00555905
+  New parameters: mu=0.827619, sigma=0.651892
+  Temperature: 0.15263
+Iteration 258: ACCEPTED
+  New energy: -0.443967 ± 0.00336144
+  New parameters: mu=0.796922, sigma=0.628542
+  Temperature: 0.151104
+Iteration 259: ACCEPTED
+  New energy: -0.429441 ± 0.00474366
+  New parameters: mu=0.759559, sigma=0.641585
+  Temperature: 0.149593
+Iteration 260: ACCEPTED
+  New energy: -0.426723 ± 0.00531511
+  New parameters: mu=0.753133, sigma=0.663968
+  Temperature: 0.148097
+
+Progress update (iteration 260):
+  Temperature: 0.146616
+  Current: mu=0.753133, sigma=0.663968
+  Current energy: -0.426723 ± 0.00531511
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 261: ACCEPTED
+  New energy: -0.401463 ± 0.00370045
+  New parameters: mu=0.684923, sigma=0.64828
+  Temperature: 0.146616
+Iteration 262: ACCEPTED
+  New energy: -0.420141 ± 0.00405197
+  New parameters: mu=0.713614, sigma=0.634958
+  Temperature: 0.14515
+Iteration 263: ACCEPTED
+  New energy: -0.39776 ± 0.00358294
+  New parameters: mu=0.682382, sigma=0.650665
+  Temperature: 0.143698
+Iteration 264: ACCEPTED
+  New energy: -0.34744 ± 0.0049031
+  New parameters: mu=0.624502, sigma=0.670416
+  Temperature: 0.142261
+Iteration 265: REJECTED
+  Energy difference: 0.0081492
+  Temperature: 0.140838
+Iteration 266: ACCEPTED
+  New energy: -0.375553 ± 0.00457141
+  New parameters: mu=0.667887, sigma=0.687967
+  Temperature: 0.13943
+Iteration 267: ACCEPTED
+  New energy: -0.384192 ± 0.00369838
+  New parameters: mu=0.665289, sigma=0.660985
+  Temperature: 0.138036
+Iteration 268: ACCEPTED
+  New energy: -0.387326 ± 0.00515846
+  New parameters: mu=0.67767, sigma=0.632777
+  Temperature: 0.136655
+Iteration 269: ACCEPTED
+  New energy: -0.383211 ± 0.00454729
+  New parameters: mu=0.669923, sigma=0.634384
+  Temperature: 0.135289
+Iteration 270: ACCEPTED
+  New energy: -0.333492 ± 0.00467436
+  New parameters: mu=0.609233, sigma=0.651943
+  Temperature: 0.133936
+
+Progress update (iteration 270):
+  Temperature: 0.132597
+  Current: mu=0.609233, sigma=0.651943
+  Current energy: -0.333492 ± 0.00467436
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 271: ACCEPTED
+  New energy: -0.30423 ± 0.00426164
+  New parameters: mu=0.590266, sigma=0.629741
+  Temperature: 0.132597
+Iteration 272: ACCEPTED
+  New energy: -0.248711 ± 0.00560902
+  New parameters: mu=0.538789, sigma=0.647513
+  Temperature: 0.131271
+Iteration 273: ACCEPTED
+  New energy: -0.226402 ± 0.00554397
+  New parameters: mu=0.518095, sigma=0.648311
+  Temperature: 0.129958
+Iteration 274: ACCEPTED
+  New energy: -0.240597 ± 0.00523736
+  New parameters: mu=0.513397, sigma=0.639977
+  Temperature: 0.128658
+Iteration 275: ACCEPTED
+  New energy: -0.208632 ± 0.00589379
+  New parameters: mu=0.497309, sigma=0.662573
+  Temperature: 0.127372
+Iteration 276: ACCEPTED
+  New energy: -0.287872 ± 0.00523944
+  New parameters: mu=0.553498, sigma=0.669311
+  Temperature: 0.126098
+Iteration 277: ACCEPTED
+  New energy: -0.281212 ± 0.00453322
+  New parameters: mu=0.560595, sigma=0.65038
+  Temperature: 0.124837
+Iteration 278: ACCEPTED
+  New energy: -0.304854 ± 0.00582569
+  New parameters: mu=0.576518, sigma=0.63248
+  Temperature: 0.123589
+Iteration 279: REJECTED
+  Energy difference: 0.0501551
+  Temperature: 0.122353
+Iteration 280: ACCEPTED
+  New energy: -0.349884 ± 0.00457291
+  New parameters: mu=0.634015, sigma=0.607793
+  Temperature: 0.121129
+
+Progress update (iteration 280):
+  Temperature: 0.119918
+  Current: mu=0.634015, sigma=0.607793
+  Current energy: -0.349884 ± 0.00457291
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 281: ACCEPTED
+  New energy: -0.325088 ± 0.00462328
+  New parameters: mu=0.605693, sigma=0.610105
+  Temperature: 0.119918
+Iteration 282: ACCEPTED
+  New energy: -0.350896 ± 0.00435843
+  New parameters: mu=0.639241, sigma=0.594183
+  Temperature: 0.118719
+Iteration 283: ACCEPTED
+  New energy: -0.387998 ± 0.0039986
+  New parameters: mu=0.672505, sigma=0.59839
+  Temperature: 0.117532
+Iteration 284: ACCEPTED
+  New energy: -0.418015 ± 0.00407255
+  New parameters: mu=0.707475, sigma=0.609105
+  Temperature: 0.116356
+Iteration 285: ACCEPTED
+  New energy: -0.385094 ± 0.00382583
+  New parameters: mu=0.672222, sigma=0.626266
+  Temperature: 0.115193
+Iteration 286: ACCEPTED
+  New energy: -0.356916 ± 0.00515784
+  New parameters: mu=0.642688, sigma=0.601239
+  Temperature: 0.114041
+Iteration 287: ACCEPTED
+  New energy: -0.391696 ± 0.00351457
+  New parameters: mu=0.683553, sigma=0.596086
+  Temperature: 0.1129
+Iteration 288: REJECTED
+  Energy difference: 0.0341446
+  Temperature: 0.111771
+Iteration 289: ACCEPTED
+  New energy: -0.396115 ± 0.00438634
+  New parameters: mu=0.706683, sigma=0.572174
+  Temperature: 0.110654
+Iteration 290: ACCEPTED
+  New energy: -0.388113 ± 0.00417235
+  New parameters: mu=0.674627, sigma=0.592446
+  Temperature: 0.109547
+
+Progress update (iteration 290):
+  Temperature: 0.108452
+  Current: mu=0.674627, sigma=0.592446
+  Current energy: -0.388113 ± 0.00417235
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 291: ACCEPTED
+  New energy: -0.403427 ± 0.00482653
+  New parameters: mu=0.710207, sigma=0.569817
+  Temperature: 0.108452
+Iteration 292: ACCEPTED
+  New energy: -0.38461 ± 0.00487409
+  New parameters: mu=0.682298, sigma=0.580697
+  Temperature: 0.107367
+Iteration 293: ACCEPTED
+  New energy: -0.37832 ± 0.00405783
+  New parameters: mu=0.676252, sigma=0.593334
+  Temperature: 0.106294
+Iteration 294: ACCEPTED
+  New energy: -0.361516 ± 0.00411742
+  New parameters: mu=0.649041, sigma=0.60221
+  Temperature: 0.105231
+Iteration 295: ACCEPTED
+  New energy: -0.402702 ± 0.0045044
+  New parameters: mu=0.695062, sigma=0.593877
+  Temperature: 0.104178
+Iteration 296: ACCEPTED
+  New energy: -0.391932 ± 0.00371259
+  New parameters: mu=0.681684, sigma=0.612595
+  Temperature: 0.103137
+Iteration 297: REJECTED
+  Energy difference: 0.032841
+  Temperature: 0.102105
+Iteration 298: ACCEPTED
+  New energy: -0.386902 ± 0.00385685
+  New parameters: mu=0.683546, sigma=0.598419
+  Temperature: 0.101084
+Iteration 299: ACCEPTED
+  New energy: -0.382521 ± 0.00437963
+  New parameters: mu=0.670368, sigma=0.579654
+  Temperature: 0.100073
+Iteration 300: ACCEPTED
+  New energy: -0.405448 ± 0.003645
+  New parameters: mu=0.710353, sigma=0.580342
+  Temperature: 0.0990725
+
+Progress update (iteration 300):
+  Temperature: 0.0980818
+  Current: mu=0.710353, sigma=0.580342
+  Current energy: -0.405448 ± 0.003645
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 301: ACCEPTED
+  New energy: -0.411943 ± 0.00406478
+  New parameters: mu=0.732322, sigma=0.568151
+  Temperature: 0.0980818
+Iteration 302: ACCEPTED
+  New energy: -0.419454 ± 0.00328268
+  New parameters: mu=0.769526, sigma=0.562351
+  Temperature: 0.097101
+Iteration 303: REJECTED
+  Energy difference: 0.0400899
+  Temperature: 0.09613
+Iteration 304: ACCEPTED
+  New energy: -0.397761 ± 0.0042054
+  New parameters: mu=0.813386, sigma=0.549902
+  Temperature: 0.0951687
+Iteration 305: ACCEPTED
+  New energy: -0.415952 ± 0.00328959
+  New parameters: mu=0.819643, sigma=0.567321
+  Temperature: 0.094217
+Iteration 306: ACCEPTED
+  New energy: -0.399369 ± 0.00453936
+  New parameters: mu=0.798362, sigma=0.548387
+  Temperature: 0.0932748
+Iteration 307: ACCEPTED
+  New energy: -0.426518 ± 0.00340309
+  New parameters: mu=0.807164, sigma=0.571147
+  Temperature: 0.0923421
+Iteration 308: ACCEPTED
+  New energy: -0.416976 ± 0.00411825
+  New parameters: mu=0.78274, sigma=0.563323
+  Temperature: 0.0914186
+Iteration 309: ACCEPTED
+  New energy: -0.40052 ± 0.00409727
+  New parameters: mu=0.753428, sigma=0.554388
+  Temperature: 0.0905044
+Iteration 310: ACCEPTED
+  New energy: -0.411887 ± 0.00413771
+  New parameters: mu=0.745283, sigma=0.561014
+  Temperature: 0.0895994
+
+Progress update (iteration 310):
+  Temperature: 0.0887034
+  Current: mu=0.745283, sigma=0.561014
+  Current energy: -0.411887 ± 0.00413771
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 311: REJECTED
+  Energy difference: 0.0345704
+  Temperature: 0.0887034
+Iteration 312: ACCEPTED
+  New energy: -0.401899 ± 0.00440043
+  New parameters: mu=0.729572, sigma=0.566929
+  Temperature: 0.0878164
+Iteration 313: ACCEPTED
+  New energy: -0.409614 ± 0.00418775
+  New parameters: mu=0.7075, sigma=0.580802
+  Temperature: 0.0869382
+Iteration 314: REJECTED
+  Energy difference: 0.0215128
+  Temperature: 0.0860688
+Iteration 315: REJECTED
+  Energy difference: 0.0178944
+  Temperature: 0.0852081
+Iteration 316: ACCEPTED
+  New energy: -0.400729 ± 0.00350461
+  New parameters: mu=0.685796, sigma=0.5996
+  Temperature: 0.0843561
+Iteration 317: ACCEPTED
+  New energy: -0.418081 ± 0.00310442
+  New parameters: mu=0.726535, sigma=0.585584
+  Temperature: 0.0835125
+Iteration 318: ACCEPTED
+  New energy: -0.42089 ± 0.00287856
+  New parameters: mu=0.725433, sigma=0.592985
+  Temperature: 0.0826774
+Iteration 319: ACCEPTED
+  New energy: -0.393501 ± 0.00462049
+  New parameters: mu=0.688283, sigma=0.577911
+  Temperature: 0.0818506
+Iteration 320: ACCEPTED
+  New energy: -0.417943 ± 0.00376602
+  New parameters: mu=0.718653, sigma=0.587009
+  Temperature: 0.0810321
+
+Progress update (iteration 320):
+  Temperature: 0.0802218
+  Current: mu=0.718653, sigma=0.587009
+  Current energy: -0.417943 ± 0.00376602
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 321: ACCEPTED
+  New energy: -0.401082 ± 0.0047979
+  New parameters: mu=0.713626, sigma=0.568423
+  Temperature: 0.0802218
+Iteration 322: ACCEPTED
+  New energy: -0.406699 ± 0.00330462
+  New parameters: mu=0.707415, sigma=0.588233
+  Temperature: 0.0794196
+Iteration 323: ACCEPTED
+  New energy: -0.40644 ± 0.00368553
+  New parameters: mu=0.705569, sigma=0.591627
+  Temperature: 0.0786254
+Iteration 324: ACCEPTED
+  New energy: -0.422295 ± 0.00304419
+  New parameters: mu=0.73451, sigma=0.583525
+  Temperature: 0.0778391
+Iteration 325: ACCEPTED
+  New energy: -0.389955 ± 0.00347118
+  New parameters: mu=0.698574, sigma=0.574968
+  Temperature: 0.0770607
+Iteration 326: ACCEPTED
+  New energy: -0.371499 ± 0.0038389
+  New parameters: mu=0.670029, sigma=0.581397
+  Temperature: 0.0762901
+Iteration 327: ACCEPTED
+  New energy: -0.371097 ± 0.00454338
+  New parameters: mu=0.660201, sigma=0.584374
+  Temperature: 0.0755272
+Iteration 328: ACCEPTED
+  New energy: -0.336789 ± 0.00447341
+  New parameters: mu=0.62808, sigma=0.587083
+  Temperature: 0.0747719
+Iteration 329: ACCEPTED
+  New energy: -0.315372 ± 0.00476809
+  New parameters: mu=0.607725, sigma=0.600521
+  Temperature: 0.0740242
+Iteration 330: ACCEPTED
+  New energy: -0.314427 ± 0.00587522
+  New parameters: mu=0.60648, sigma=0.583678
+  Temperature: 0.073284
+
+Progress update (iteration 330):
+  Temperature: 0.0725511
+  Current: mu=0.60648, sigma=0.583678
+  Current energy: -0.314427 ± 0.00587522
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 331: ACCEPTED
+  New energy: -0.328687 ± 0.00513513
+  New parameters: mu=0.619329, sigma=0.596649
+  Temperature: 0.0725511
+Iteration 332: REJECTED
+  Energy difference: 0.0222741
+  Temperature: 0.0718256
+Iteration 333: ACCEPTED
+  New energy: -0.348691 ± 0.00411376
+  New parameters: mu=0.632869, sigma=0.593785
+  Temperature: 0.0711074
+Iteration 334: ACCEPTED
+  New energy: -0.354528 ± 0.00469353
+  New parameters: mu=0.641483, sigma=0.598226
+  Temperature: 0.0703963
+Iteration 335: ACCEPTED
+  New energy: -0.327425 ± 0.00495954
+  New parameters: mu=0.612759, sigma=0.605004
+  Temperature: 0.0696923
+Iteration 336: ACCEPTED
+  New energy: -0.332459 ± 0.00496002
+  New parameters: mu=0.612587, sigma=0.619114
+  Temperature: 0.0689954
+Iteration 337: ACCEPTED
+  New energy: -0.362062 ± 0.00483406
+  New parameters: mu=0.643109, sigma=0.625729
+  Temperature: 0.0683055
+Iteration 338: ACCEPTED
+  New energy: -0.351353 ± 0.00403814
+  New parameters: mu=0.632605, sigma=0.62194
+  Temperature: 0.0676224
+Iteration 339: ACCEPTED
+  New energy: -0.386705 ± 0.00378878
+  New parameters: mu=0.662254, sigma=0.617765
+  Temperature: 0.0669462
+Iteration 340: ACCEPTED
+  New energy: -0.390418 ± 0.00478812
+  New parameters: mu=0.671236, sigma=0.60827
+  Temperature: 0.0662767
+
+Progress update (iteration 340):
+  Temperature: 0.0656139
+  Current: mu=0.671236, sigma=0.60827
+  Current energy: -0.390418 ± 0.00478812
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 341: ACCEPTED
+  New energy: -0.398597 ± 0.00345415
+  New parameters: mu=0.692933, sigma=0.604753
+  Temperature: 0.0656139
+Iteration 342: ACCEPTED
+  New energy: -0.378928 ± 0.00327849
+  New parameters: mu=0.662033, sigma=0.606808
+  Temperature: 0.0649578
+Iteration 343: ACCEPTED
+  New energy: -0.39821 ± 0.0038887
+  New parameters: mu=0.692437, sigma=0.592745
+  Temperature: 0.0643082
+Iteration 344: ACCEPTED
+  New energy: -0.39792 ± 0.00402354
+  New parameters: mu=0.701876, sigma=0.585421
+  Temperature: 0.0636651
+Iteration 345: ACCEPTED
+  New energy: -0.409258 ± 0.00343916
+  New parameters: mu=0.70355, sigma=0.594843
+  Temperature: 0.0630285
+Iteration 346: ACCEPTED
+  New energy: -0.392672 ± 0.0043591
+  New parameters: mu=0.69026, sigma=0.58494
+  Temperature: 0.0623982
+Iteration 347: ACCEPTED
+  New energy: -0.405451 ± 0.00409299
+  New parameters: mu=0.694112, sigma=0.590808
+  Temperature: 0.0617742
+Iteration 348: REJECTED
+  Energy difference: 0.020374
+  Temperature: 0.0611565
+Iteration 349: ACCEPTED
+  New energy: -0.415513 ± 0.00378405
+  New parameters: mu=0.711158, sigma=0.5915
+  Temperature: 0.0605449
+Iteration 350: ACCEPTED
+  New energy: -0.416234 ± 0.00346234
+  New parameters: mu=0.727334, sigma=0.587968
+  Temperature: 0.0599395
+
+Progress update (iteration 350):
+  Temperature: 0.0593401
+  Current: mu=0.727334, sigma=0.587968
+  Current energy: -0.416234 ± 0.00346234
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 351: ACCEPTED
+  New energy: -0.423813 ± 0.00358183
+  New parameters: mu=0.722943, sigma=0.60155
+  Temperature: 0.0593401
+Iteration 352: ACCEPTED
+  New energy: -0.422841 ± 0.00280919
+  New parameters: mu=0.727779, sigma=0.597955
+  Temperature: 0.0587467
+Iteration 353: ACCEPTED
+  New energy: -0.422651 ± 0.00346766
+  New parameters: mu=0.729188, sigma=0.604846
+  Temperature: 0.0581592
+Iteration 354: ACCEPTED
+  New energy: -0.409437 ± 0.00433255
+  New parameters: mu=0.703158, sigma=0.615661
+  Temperature: 0.0575776
+Iteration 355: ACCEPTED
+  New energy: -0.417484 ± 0.00407627
+  New parameters: mu=0.714484, sigma=0.622227
+  Temperature: 0.0570018
+Iteration 356: ACCEPTED
+  New energy: -0.421979 ± 0.00622249
+  New parameters: mu=0.738546, sigma=0.627972
+  Temperature: 0.0564318
+Iteration 357: ACCEPTED
+  New energy: -0.434099 ± 0.00367684
+  New parameters: mu=0.75472, sigma=0.640607
+  Temperature: 0.0558675
+Iteration 358: ACCEPTED
+  New energy: -0.435569 ± 0.00311612
+  New parameters: mu=0.747967, sigma=0.638354
+  Temperature: 0.0553088
+Iteration 359: ACCEPTED
+  New energy: -0.424295 ± 0.00410662
+  New parameters: mu=0.730089, sigma=0.649297
+  Temperature: 0.0547557
+Iteration 360: ACCEPTED
+  New energy: -0.425875 ± 0.00349032
+  New parameters: mu=0.724724, sigma=0.655856
+  Temperature: 0.0542082
+
+Progress update (iteration 360):
+  Temperature: 0.0536661
+  Current: mu=0.724724, sigma=0.655856
+  Current energy: -0.425875 ± 0.00349032
+  Best energy so far: -0.446039 ± 0.0025833
+  Best parameters: mu=0.818749, sigma=0.602897
+Iteration 361: ACCEPTED
+  New energy: -0.424812 ± 0.00436327
+  New parameters: mu=0.743311, sigma=0.660747
+  Temperature: 0.0536661
+Iteration 362: ACCEPTED
+  New energy: -0.414864 ± 0.00536674
+  New parameters: mu=0.747973, sigma=0.670681
+  Temperature: 0.0531294
+Iteration 363: ACCEPTED
+  New energy: -0.426574 ± 0.00570134
+  New parameters: mu=0.765652, sigma=0.660738
+  Temperature: 0.0525981
+
+=== EARLY STOPPING ===
+Stopped after 100 iterations without improvement (iteration 364)
+Best energy found: -0.446039 ± 0.0025833
+
+=== Simulated Annealing completed! ===
+Total iterations: 364
+Best energy found: -0.446039 ± 0.0025833
+Best parameters: mu=0.818749, sigma=0.602897
+
+=== Running final calculation with optimal parameters ===
+Blocking method temperature 0.0520722 completed.
+
+
+=== FINAL RESULTS ===
+Optimal parameters found by SA:
+  Mu: 0.818749
+  Sigma: 0.602897
+Final energy calculation with optimal parameters:
+  Energy: -0.441785 ± 0.00288862
+  Acceptance rate: 0.71248

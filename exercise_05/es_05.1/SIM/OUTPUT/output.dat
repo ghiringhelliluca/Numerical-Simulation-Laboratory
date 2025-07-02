@@ -1,0 +1,27 @@
+Parameters loaded from: ../INPUT/input.dat
+- Equilibration steps: 2000
+- Sampling steps: 1000000
+- Number of blocks: 50
+- Block size: 20000
+
+====== SAMPLING ======
+
+1s state sampling:
+- Uniform proposal acceptance rate: 0.506943
+- Gaussian proposal acceptance rate: 0.529139
+
+2p state sampling:
+- Uniform proposal acceptance rate: 0.523290
+- Gaussian proposal acceptance rate: 0.514462
+
+Sampling phase completed!
+
+====== FINAL RESULTS ======
+1s state final estimates:
+- Uniform proposal: <r> = 1.496520 +- 0.003911
+- Gaussian proposal: <r> = 1.493098 +- 0.003839
+
+2p state final estimates:
+- Uniform proposal: <r> = 5.014651 +- 0.009083
+- Gaussian proposal: <r> = 4.996331 +- 0.009597
+Simulation completed

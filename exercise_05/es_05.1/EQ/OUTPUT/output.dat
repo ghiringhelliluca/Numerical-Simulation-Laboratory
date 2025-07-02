@@ -1,0 +1,22 @@
+Parameters loaded from: ../INPUT/input.dat
+- Equilibration steps: 5000
+====== EQUILIBRATION ======
+
+1s state equilibration (starting close to origin):
+- Uniform proposal acceptance rate: 0.515400
+- Gaussian proposal acceptance rate: 0.533000
+
+1s state equilibration (starting far from origin):
+- Uniform proposal acceptance rate: 0.562600
+- Gaussian proposal acceptance rate: 0.586400
+
+2p state equilibration (starting close to origin):
+- Uniform proposal acceptance rate: 0.518600
+- Gaussian proposal acceptance rate: 0.530800
+
+2p state equilibration (starting far from origin):
+- Uniform proposal acceptance rate: 0.554000
+- Gaussian proposal acceptance rate: 0.547000
+
+Equilibration phase completed!
+

@@ -1,0 +1,107 @@
+DATA FILE= ../../cap_prov_ita.dat
+NUMBER OF INDIVIDUALS= 1000
+EXP FOR SELECTION= 2.5
+GENERATIONS= 1000
+MIGRATION EVERY 15 GENERATIONS
+Reading input completed!
+Starting MPI Genetic Algorithm with 4 processes
+Migration every 15 generations
+Initial populations created and sorted
+Migration completed at generation 15
+Migration completed at generation 30
+Migration completed at generation 45
+Generation 50, Best fitness: 18083.32 km
+Migration completed at generation 60
+Migration completed at generation 75
+Migration completed at generation 90
+Generation 100, Best fitness: 11117.27 km
+Migration completed at generation 105
+Migration completed at generation 120
+Migration completed at generation 135
+Migration completed at generation 150
+Generation 150, Best fitness: 8743.54 km
+Migration completed at generation 165
+Migration completed at generation 180
+Migration completed at generation 195
+Generation 200, Best fitness: 7537.98 km
+Migration completed at generation 210
+Migration completed at generation 225
+Migration completed at generation 240
+Generation 250, Best fitness: 6884.27 km
+Migration completed at generation 255
+Migration completed at generation 270
+Migration completed at generation 285
+Migration completed at generation 300
+Generation 300, Best fitness: 6683.60 km
+Migration completed at generation 315
+Migration completed at generation 330
+Migration completed at generation 345
+Generation 350, Best fitness: 6455.76 km
+Migration completed at generation 360
+Migration completed at generation 375
+Migration completed at generation 390
+Generation 400, Best fitness: 6263.88 km
+Migration completed at generation 405
+Migration completed at generation 420
+Migration completed at generation 435
+Migration completed at generation 450
+Generation 450, Best fitness: 6222.59 km
+Migration completed at generation 465
+Migration completed at generation 480
+Migration completed at generation 495
+Generation 500, Best fitness: 6222.59 km
+Migration completed at generation 510
+Migration completed at generation 525
+Migration completed at generation 540
+Generation 550, Best fitness: 6222.59 km
+Migration completed at generation 555
+Migration completed at generation 570
+Migration completed at generation 585
+Migration completed at generation 600
+Generation 600, Best fitness: 6222.59 km
+Migration completed at generation 615
+Migration completed at generation 630
+Migration completed at generation 645
+Generation 650, Best fitness: 6222.59 km
+Migration completed at generation 660
+Migration completed at generation 675
+Migration completed at generation 690
+Generation 700, Best fitness: 6222.59 km
+Migration completed at generation 705
+Migration completed at generation 720
+Migration completed at generation 735
+Migration completed at generation 750
+Generation 750, Best fitness: 6222.59 km
+Migration completed at generation 765
+Migration completed at generation 780
+Migration completed at generation 795
+Generation 800, Best fitness: 6222.59 km
+Migration completed at generation 810
+Migration completed at generation 825
+Migration completed at generation 840
+Generation 850, Best fitness: 6222.59 km
+Migration completed at generation 855
+Migration completed at generation 870
+Migration completed at generation 885
+Migration completed at generation 900
+Generation 900, Best fitness: 6222.59 km
+Migration completed at generation 915
+Migration completed at generation 930
+Migration completed at generation 945
+Generation 950, Best fitness: 6222.59 km
+Migration completed at generation 960
+Migration completed at generation 975
+Migration completed at generation 990
+Generation 1000, Best fitness: 6222.59 km
+Process 3 final best: 6222.59 km
+
+==================================================
+Process 1 final best: 6222.59 km
+Process 2 final best: 6222.59 km
+FINAL RESULTS:
+Global best fitness: 6222.59 km
+Best solution found by process: 0
+==================================================
+Process 0 final best: 6222.59 km
+Global best solution saved to ../OUTPUT/global_best_solution.dat
+All processes completed successfully.

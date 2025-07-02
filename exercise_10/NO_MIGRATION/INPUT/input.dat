@@ -1,0 +1,7 @@
+DATA_FILE              ../../cap_prov_ita.dat
+M                      1000
+p                      2.5
+GENERATION             1000
+N_MIGR                 1001
+
+ENDINPUT

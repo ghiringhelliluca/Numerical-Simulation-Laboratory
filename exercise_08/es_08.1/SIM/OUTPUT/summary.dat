@@ -1,0 +1,22 @@
+=== SIMULATION PARAMETERS ===
+Temperature: 1
+Delta: 1.2
+Mu: 1
+Sigma: 0.5
+N Blocks: 50
+N Steps: 1000
+Equilibration Blocks: 1
+
+Starting quantum simulation...
+
+=== SIMULATION RESULTS ===
+Final Energy: -0.14226628 ± 0.00718918
+Final Acceptance Rate: 0.5011
+Total blocks: 50
+Steps per block: 1000
+Equilibration blocks: 1
+
+Simulation completed successfully!
+=== QUANTUM SIMULATION RESULTS ===
+Final Energy: -0.142266 ± 0.00718918
+Final Acceptance Rate: 0.50108

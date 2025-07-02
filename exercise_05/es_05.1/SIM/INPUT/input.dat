@@ -1,0 +1,18 @@
+# Simulation steps
+N_EQUILIBRATION 2000
+N_SAMPLING 1000000
+N_BLOCKS 50
+
+# Step sizes for 1s state (psi_100)
+SIGMA_100 0.7
+DELTA_100 1.2
+
+# Step sizes for 2p state (psi_210) 
+SIGMA_210 1.8
+DELTA_210 2.8
+
+# Starting coordinates
+X_START 0.0
+Y_START 0.0
+Z_START_100 0.0
+Z_START_210 2.0

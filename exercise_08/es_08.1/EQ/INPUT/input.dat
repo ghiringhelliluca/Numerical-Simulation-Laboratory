@@ -1,0 +1,10 @@
+TEMP                   1.
+DELTA                  1.2
+NBLOCKS                2000
+NSTEPS                 1
+NEQUILIBRATION         0
+MU                     1.
+SIGMA                  0.5
+
+
+ENDINPUT

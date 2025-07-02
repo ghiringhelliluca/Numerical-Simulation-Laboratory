@@ -1,0 +1,7 @@
+SIMULATION_TYPE        1
+M                      1000
+p                      2.5
+GENERATION             200
+
+
+ENDINPUT
